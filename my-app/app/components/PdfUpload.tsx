@@ -54,7 +54,6 @@ const PdfUpload = () => {
     const formData = new FormData();
     formData.append('file', file);
 
-    // Simulate upload progress
     setTimeout(() => setProgress(50), 1000);
     setTimeout(() => setProgress(75), 2000);
     setTimeout(() => setProgress(100), 3000);
@@ -71,11 +70,11 @@ const PdfUpload = () => {
       } else {
         setMessage('File upload failed.');
       }
-    }, 3500); // Wait until progress reaches 100% before completing
+    }, 3500);
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col items-center justify-center">
       <h1 className="text-2xl font-bold mb-4">Upload File</h1>
       <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-md w-80">
         <div
