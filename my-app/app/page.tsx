@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <h1>Welcome to my website</h1>
       <PdfUpload />
     </div>
   );
