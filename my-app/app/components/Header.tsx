@@ -1,5 +1,6 @@
 import { UserButton } from '@clerk/nextjs';
 import React from 'react';
+import ThemeBtn from './ThemeBtn';
 
 export default function Header() {
   return (
@@ -28,6 +29,7 @@ export default function Header() {
           </ul>
         </div>
       </div>
+      <ThemeBtn />
       <UserButton />
     </div>
   );

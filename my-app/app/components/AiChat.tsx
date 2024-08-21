@@ -87,7 +87,7 @@ const AiChat = () => {
                   </div>
                   <div>{response}</div>
                 </>
-              )}
+              )}  
             </div>
           </div>
         ))}
