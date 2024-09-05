@@ -2,6 +2,8 @@
 
 This project is a web application built with Streamlit that allows users to interact with PDF documents using advanced AI capabilities provided by Google's Gemini model. The application enables users to upload PDF files, process them, and ask questions about the content of the PDFs.
 
+![ChatJot Demo](assets/demo_video.gif)
+
 ## Features
 
 - PDF Upload: Upload multiple PDF documents.
